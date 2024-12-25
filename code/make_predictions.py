@@ -7,7 +7,7 @@ model = joblib.load('../model/trained_house_classifier_model.pkl')
 # arrangement as our training data set.
 house_to_value = [
     # House features
-    2006,   # year_built
+    1980,   # year_built
     1,      # stories
     4,      # num_bedrooms
     3,      # full_bathrooms
@@ -27,8 +27,8 @@ house_to_value = [
     1,      # none
     
     # City: Choose only one
-    0,      # Amystad
-    1,      # Brownport
+    1,      # Amystad
+    0,      # Brownport
     0,      # Chadstad
     0,      # Clarkberg
     0,      # Coletown
