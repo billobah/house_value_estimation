@@ -6,7 +6,7 @@ import joblib
 
 
 # Load the data set
-df = pd.read_csv("../data/ml_house_data_set.csv")
+df = pd.read_csv("../data/ml_house_data_set_updated.csv")
 
 # Remove the fields from the data set that we don't want to include in our model
 del df['house_number']
