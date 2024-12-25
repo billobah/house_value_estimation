@@ -34,8 +34,7 @@ model = ensemble.GradientBoostingRegressor(
     max_depth=6,
     min_samples_leaf=9,
     max_features=0.1,
-    loss='huber',
-    random_state=0
+    loss='huber'
 )
 model.fit(X_train, y_train)
 
